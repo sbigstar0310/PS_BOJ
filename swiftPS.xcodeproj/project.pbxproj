@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E37FAAA2AC6A2CF006B30E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E37FAA92AC6A2CF006B30E0 /* main.swift */; };
+		9EDB50112B5501C500CF0B42 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDB50102B5501C500CF0B42 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		9E37FAA62AC6A2CF006B30E0 /* swiftPS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftPS; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E37FAA92AC6A2CF006B30E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9E37FAA92AC6A2CF006B30E0 /* 7579.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7579.swift; sourceTree = "<group>"; };
+		9EDB50102B5501C500CF0B42 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		9E37FAA82AC6A2CF006B30E0 /* swiftPS */ = {
 			isa = PBXGroup;
 			children = (
-				9E37FAA92AC6A2CF006B30E0 /* main.swift */,
+				9E37FAA92AC6A2CF006B30E0 /* 7579.swift */,
+				9EDB50102B5501C500CF0B42 /* main.swift */,
 			);
 			path = swiftPS;
 			sourceTree = "<group>";
@@ -96,6 +98,7 @@
 				TargetAttributes = {
 					9E37FAA52AC6A2CF006B30E0 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -124,7 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E37FAAA2AC6A2CF006B30E0 /* main.swift in Sources */,
+				9EDB50112B5501C500CF0B42 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +255,10 @@
 		9E37FAAE2AC6A2CF006B30E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -261,6 +266,7 @@
 		9E37FAAF2AC6A2CF006B30E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
