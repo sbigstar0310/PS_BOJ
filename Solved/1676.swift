@@ -1,5 +1,4 @@
 // 1676
-
 import Foundation
 
 let N = Int(readLine()!)!
