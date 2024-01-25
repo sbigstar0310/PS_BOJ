@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E436D7A2B5D4BDB001C0603 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E436D792B5D4BDB001C0603 /* main.swift */; };
+		9EE7BB522B627A5F005B04AA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE7BB512B627A5F005B04AA /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,8 +62,11 @@
 		9E386BA42B5AA6D2001692AD /* 1654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1654.swift; sourceTree = "<group>"; };
 		9E386BA62B5AB878001692AD /* 1676.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1676.swift; sourceTree = "<group>"; };
 		9E386BA82B5ACE47001692AD /* 18111.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18111.swift; sourceTree = "<group>"; };
-		9E436D792B5D4BDB001C0603 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9E436D792B5D4BDB001C0603 /* 2108.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2108.swift; sourceTree = "<group>"; };
 		9EDB50102B5501C500CF0B42 /* 11866.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11866.swift; sourceTree = "<group>"; };
+		9EE7BB4D2B626309005B04AA /* 1966.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1966.swift; sourceTree = "<group>"; };
+		9EE7BB4F2B627583005B04AA /* 4949.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4949.swift; sourceTree = "<group>"; };
+		9EE7BB512B627A5F005B04AA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +100,7 @@
 		9E37FAA82AC6A2CF006B30E0 /* swiftPS */ = {
 			isa = PBXGroup;
 			children = (
-				9E436D792B5D4BDB001C0603 /* main.swift */,
+				9EE7BB512B627A5F005B04AA /* main.swift */,
 			);
 			path = swiftPS;
 			sourceTree = "<group>";
@@ -105,6 +108,9 @@
 		9E386B612B593EF6001692AD /* Solved */ = {
 			isa = PBXGroup;
 			children = (
+				9EE7BB4F2B627583005B04AA /* 4949.swift */,
+				9EE7BB4D2B626309005B04AA /* 1966.swift */,
+				9E436D792B5D4BDB001C0603 /* 2108.swift */,
 				9E32F0B72B5D40170056F448 /* 1874.swift */,
 				9E32F0B52B5C45A90056F448 /* 18110.swift */,
 				9E386BA82B5ACE47001692AD /* 18111.swift */,
@@ -211,7 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E436D7A2B5D4BDB001C0603 /* main.swift in Sources */,
+				9EE7BB522B627A5F005B04AA /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
